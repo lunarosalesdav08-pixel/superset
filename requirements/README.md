@@ -1,11 +1,11 @@
 ## Python dependency logic
 
-In this folder, the `.in` files, in conjunction with the `../pyproject.toml` file (in the root of the repo) are used to generate the pinned requirements as `.txt` files.
+In this folder, the `.in` files, in conjunction with the `
 
-To alter the pinned dependency, you can edit/alter the `.in` and `pyproject.toml` files, and then run the following command:
+To alter the pinned dependency, you can edit/alter the `.in` and ` files, and then run the following command:
 
 ```bash
-./scripts/uv-pip-compile.sh
+
 ```
 :::warning
 The pinned dependencies are based on the `current` version of python supported in Superset.
